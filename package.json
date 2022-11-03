@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  },
+  "name": "figma-file-counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OPesicka/figma-file-counter.git",
+  "author": "OPesicka <ondrejpesicka@gmail.com>",
+  "license": "MIT",
+  "type": "module"
+}
