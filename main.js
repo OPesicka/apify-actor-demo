@@ -3,10 +3,10 @@ import fetch from "node-fetch";
 
 await Actor.init();
 
-// const { token, teamID } = await Actor.getInput();
+const { token, teamID } = await Actor.getInput();
 
-const teamID = "912788418659599813"; // AlfaOptima
-const token = "figd_iOtW4vr8ZiSQbSewPFzRoRcLlVr4vWL_0PrBqSWM";
+// const teamID = "912788418659599813"; // AlfaOptima
+// const token = "figd_iOtW4vr8ZiSQbSewPFzRoRcLlVr4vWL_0PrBqSWM";
 
 function getURL(url, token) {
     return fetch(url, {
