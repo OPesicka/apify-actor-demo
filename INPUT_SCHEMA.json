@@ -1,0 +1,22 @@
+{
+  "title": "Figma file counter",
+  "description": "Count the number of files in a your Figma team",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "token": {
+      "title": "Figma Personal access token",
+      "type": "string",
+      "description": "To find your token login to Figma, open settings and create one in the Personal access tokens section",
+      "isSecret": true,
+      "editor": "textfield"
+    },
+    "teamID": {
+      "title": "Figma team ID",
+      "type": "string",
+      "description": "To obtain a team id, navigate to a team page of a team you are a part of. The team id will be present in the URL after the word team and before your team name.",
+      "editor": "textfield"
+    }
+  },
+  "required": ["token", "teamID"]
+}

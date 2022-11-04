@@ -1,12 +1,25 @@
 {
-  "dependencies": {
-    "node-fetch": "^3.2.10"
-  },
-  "name": "figma-file-counter",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/OPesicka/figma-file-counter.git",
-  "author": "OPesicka <ondrejpesicka@gmail.com>",
-  "license": "MIT",
-  "type": "module"
+    "name": "project-empty",
+    "version": "0.0.1",
+    "type": "module",
+    "description": "This is a boilerplate of an Apify actor.",
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.0.0",
+        "node-fetch": "^3.2.10"
+    },
+    "devDependencies": {
+        "@apify/eslint-config": "^0.3.1",
+        "eslint": "^8.20.0"
+    },
+    "scripts": {
+        "start": "node main.js",
+        "lint": "./node_modules/.bin/eslint ./src --ext .js,.jsx",
+        "lint:fix": "./node_modules/.bin/eslint ./src --ext .js,.jsx --fix",
+        "test": "echo \"Error: oops, the actor has no tests yet, sad!\" && exit 1"
+    },
+    "author": "It's not you it's me",
+    "license": "ISC"
 }
